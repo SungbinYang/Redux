@@ -27,3 +27,34 @@ export function showAll() {
 export function showComplete() {
   return { type: SHOW_COMPLETE };
 }
+
+// users
+
+// 깃허브 api 호출을 시작하는것을 의미합니다.
+export const GET_USERS_START = "GET_USERS_START";
+
+// 깃허브 api 호출에 대한 응답이 성공적으로 돌아온 경우.
+export const GET_USERS_SUCCESS = "GET_USERS_SUCCESS";
+
+// 깃허브 api 호출에 대한 응답이 실패한 경우.
+export const GET_USERS_FAIL = "GET_USERS_FAIL";
+
+export function getUsersStart() {
+  return {
+    type: GET_USERS_START,
+  };
+}
+
+export function getUsersSuccess(data) {
+  return {
+    type: GET_USERS_SUCCESS,
+    data,
+  };
+}
+
+export function getUsersFail(error) {
+  return {
+    type: GET_USERS_FAIL,
+    error,
+  };
+}
