@@ -7,3 +7,10 @@
   - createStore
   - combineReducers
   - Redux를 React에 연결
+
+## 2. Redux Advanced
+  - Async Action with Redux
+  - 리덕스 미들웨어
+  - redux-devtools
+  - redux-thunk
+  - redux-promise-middleware
