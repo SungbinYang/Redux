@@ -14,3 +14,7 @@
   - redux-devtools
   - redux-thunk
   - redux-promise-middleware
+  - Ducks Pattern
+  - react-router-dom과 redux 함께쓰기
+  - redux-saga
+  - redux-actions
