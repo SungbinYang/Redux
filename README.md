@@ -1,2 +1,9 @@
 # Redux
-Redux를 공부하는 저장소입니다.
+
+## 1. Redux Basic
+  - Redux 개요
+  - Action - 액션
+  - Reducers - 리듀서
+  - createStore
+  - combineReducers
+  - Redux를 React에 연결
